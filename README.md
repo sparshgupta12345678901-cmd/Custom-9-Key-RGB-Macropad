@@ -27,5 +27,27 @@ This project also helped me learn PCB design, KiCad, routing, Keyboard matricies
 
 How it works
 
+The macropad uses a Raspberry Pi Pico W to read the 9 switches in a matrix. Each switch is connected through a diode to prevent ghosting when multiple keys are pressed.
+
+The RGB lighting uses SK6812 MINI-E reverse mounted LEDs. These LEDs are Placed under the switches and shine through the clear switch housing. The LEDs are connected in a data chain, Where the Pico sends data to the first LED, which is interconected in a chanin with the rest of the 9 LEDs, in which the each LED passes the signal to the next one and to the Raspberry Pi Pico W.
+
+The OLED display connects through 12C. The rotary encoder connects to the GPIO pins &  can be used fpr things like volume control. The slide potentiometer connects to an ADC pin on the Raspberry Pi Pico W and can be used for analog input.
+
+Main Components
+
+| Component | Purpose |
+| :--- | :--- |
+| **Raspberry Pi Pico W** | Main controllor |
+| **GATERON G Pro V3 3.0 Pro Switch** | Key inputs |
+| **1N4148 DO-35 diodes** | Prevents key ghosting |
+| **SK6812 MINI-E LEDs** | RGB key lighting|
+| **128x64 OLED display** | Visual output |
+| **Rotary encoder** | Knob input |
+| **Slide potentiometer** | Analog slider input |
+| **Custom PCB** | Holds & connects all of the components  |
+| **Custo Case** | Enclosure & style |
+
+
+
 
 
