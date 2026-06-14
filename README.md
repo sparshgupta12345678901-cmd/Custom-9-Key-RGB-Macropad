@@ -118,15 +118,16 @@ The RGB LEDs can be programmed for static colors, animations, or per-key effects
 BOM (Bill Of Materials)
 
 | **Component** | **Quantity** | **Price** | **Link** |
-| Raspberry Pi Pico W | 1 | $6 | https://www.microcenter.com/product/650108/raspberry-pi-pico-w |
-| Slide Potentiometer | 1 | $4.17 | https://www.aliexpress.us/item/3256804677836323.html?spm=a2g0o.order_list.order_list_main.17.412e1802YyiC0s&gatewayAdapt=glo2usa |  
-| Rotary Encoder | 1 | $1.71 | https://www.aliexpress.us/item/3256807457768762.html?spm=a2g0o.order_list.order_list_main.23.412e1802YyiC0s&gatewayAdapt=glo2usa |
-| .96in OLED Display | 1 | $2.83 | https://www.aliexpress.us/item/3256805954920554.html?spm=a2g0o.order_list.order_list_main.29.412e1802YyiC0s&gatewayAdapt=glo2usa |
-| Rotary Cap (Optional) | 1 | $2.60 | https://www.aliexpress.us/item/2261799870168498.html?spm=a2g0o.order_list.order_list_main.35.412e1802YyiC0s&gatewayAdapt=glo2usa |
-| 1N4148 DO-35 Diode | 9 | $1.17 | https://www.aliexpress.us/item/3256806021685533.html?spm=a2g0o.order_list.order_list_main.41.412e1802YyiC0s&gatewayAdapt=glo2usa |
-| GATERON G PRO V3 3.0 Switch | 9 | $10.30 | https://www.aliexpress.us/item/3256810373229330.html?spm=a2g0o.order_list.order_list_main.47.412e1802YyiC0s&gatewayAdapt=glo2usa |
-| SK6812 MINI-E LEDs | 9 | $3.29 | https://www.aliexpress.us/item/3256808405274987.html?spm=a2g0o.productlist.main.2.b26bhcC6hcC6ap&algo_pvid=2beda12f-d9cf-4384-922a-8b38e549f833&algo_exp_id=2beda12f-d9cf-4384-922a-8b38e549f833-1&pdp_ext_f=%7B%22order%22%3A%2219%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%214.99%213.29%21%21%214.99%213.29%21%402101e8f317814070843542477ed33e%2112000045863230980%21sea%21US%216480927448%21X%211%210%21n_tag%3A-29911%3Bd%3A57939ebb%3Bm03_new_user%3A-29895&curPageLogUid=TwpPrRvrq6CR&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008591589739%7C_p_origin_prod%3A |
-| 330 omh Resistor | 1 | $1.45 | https://www.aliexpress.us/item/2251832681907061.html?spm=a2g0o.productlist.main.2.383fd4mBd4mBI5&algo_pvid=6a9a3102-369a-46f7-a84b-bca3f28c6226&algo_exp_id=6a9a3102-369a-46f7-a84b-bca3f28c6226-1&pdp_ext_f=%7B%22order%22%3A%22214%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%211.27%211.27%21%21%211.27%211.27%21%402103129f17814072495678610e4f2a%2165490438043%21sea%21US%216480927448%21X%211%210%21n_tag%3A-29911%3Bd%3A57939ebb%3Bm03_new_user%3A-29895&curPageLogUid=0f0I94nAdFd8&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A32868221813%7C_p_origin_prod%3A |
+| :--- | :--- | :--- | :--- |
+| Raspberry Pi Pico W | 1 | $6 | [MicroCenter](https://www.microcenter.com/product/650108/raspberry-pi-pico-w) |
+| Slide Potentiometer | 1 | $4.17 | [AliExpress](https://www.aliexpress.us/item/3256804677836323.html) |  
+| Rotary Encoder | 1 | $1.71 | [AliExpress](https://www.aliexpress.us/item/3256807457768762.html) |
+| .96in OLED Display | 1 | $2.83 | [AliExpress](https://www.aliexpress.us/item/3256805954920554.html) |
+| Rotary Cap (Optional) | 1 | $2.60 | [AliExpress](https://www.aliexpress.us/item/2261799870168498.html) |
+| 1N4148 DO-35 Diode | 9 | $1.17 | [AliExpress](https://www.aliexpress.us/item/3256806021685533.html) |
+| GATERON G PRO V3 3.0 Switch | 9 | $10.30 | [AliExpress](https://www.aliexpress.us/item/3256810373229330.html) |
+| SK6812 MINI-E LEDs | 9 | $3.29 | [AliExpress](https://www.aliexpress.us/item/3256808405274987.html) |
+| 330 ohm Resistor | 1 | $1.45 | [AliExpress](https://www.aliexpress.us/item/2251832681907061.html) |
 
 
 
