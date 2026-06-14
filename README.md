@@ -73,10 +73,10 @@ Each switch is conected to a diode, and each diode conects to a row line.
 (IN DETAIL)
 Basically put all 9 switches in a 3x3 matrix then wire the switches in a colum & in a row then put a diode next to each switch and run the row line through one of the connections while the other side is connected to the switch then connect each of the 3 rows & colums to a GPIO pin on the Raspberry Pi Pico W.
 
-[(Switch Wiring picture)](https://github.com/sparshgupta12345678901-cmd/Custom-9-Key-RGB-Macropad/blob/main/KEYCAP%20WIRING/Screenshot%202026-05-29%20035807.png)
+(https://github.com/sparshgupta12345678901-cmd/Custom-9-Key-RGB-Macropad/blob/main/KEYCAP%20WIRING/Screenshot%202026-05-29%20035807.png)
 This is what your wiring should look like for the keycaps & Diodes.
 
-[https://github.com/sparshgupta12345678901-cmd/Custom-9-Key-RGB-Macropad/blob/main/KEYCAP%20WIRING/Screenshot%202026-06-10%20001620.png](https://github.com/sparshgupta12345678901-cmd/Custom-9-Key-RGB-Macropad/blob/main/KEYCAP%20WIRING/Screenshot%202026-06-10%20001620.png)
+(https://github.com/sparshgupta12345678901-cmd/Custom-9-Key-RGB-Macropad/blob/main/KEYCAP%20WIRING/Screenshot%202026-06-10%20001620.png)
 This is a closeup of what each switch should look wired to the Diode.
 
 **RGB LED Chain Wiring**
