@@ -104,7 +104,16 @@ Last Pin > Pico ADC Pin
 
 **How to use**
 
-Once assembled & programed, the macropad can be used as a custom keyboard accessory. Each key can be assigned to shortcuts, macros, or commands. The rotary encoder can be used for volume, scrolling, or schanging settings. The Slide Potentiometer can be programed as a aalog control, for things such as brightness, volume, or other custom input.
+Once assembled & programed, the macropad can be used as a custom keyboard accessory. Each key can be assigned to shortcuts, macros, or commands. The rotary encoder can be used for volume, scrolling, or schanging settings. The Slide Potentiometer can be programed as a analog control, for things such as brightness, volume, or other custom input.
+
+The RGB LEDs can be programmed for static colors, animations, or per-key effects. The OLED can display information such as mode, volume, or custom text.
+
+**Future improvements**
+1. Adding custom oled animations
+2. Adding more RGB like a underglow
+3. Improving case design
+4. Making the PCB smaller with more compact wiring
+5. Adding hot-swap switch sockets.
 
 
 
