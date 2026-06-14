@@ -74,10 +74,9 @@ Each switch is conected to a diode, and each diode conects to a row line.
 Basically put all 9 switches in a 3x3 matrix then wire the switches in a colum & in a row then put a diode next to each switch and run the row line through one of the connections while the other side is connected to the switch then connect each of the 3 rows & colums to a GPIO pin on the Raspberry Pi Pico W.
 
 ![Keycap Wiring](KEYCAP%20WIRING/Screenshot%202026-05-29%20035807.png)
-
 This is what your wiring should look like for the keycaps & Diodes.
 
-!(https://github.com/sparshgupta12345678901-cmd/Custom-9-Key-RGB-Macropad/blob/main/KEYCAP%20WIRING/Screenshot%202026-06-10%20001620.png)
+![Keycap Wiring](KEYCAP%20WIRING/Screenshot%202026-06-10%20001620.png)
 This is a closeup of what each switch should look wired to the Diode.
 
 **RGB LED Chain Wiring**
@@ -89,7 +88,8 @@ Pico GPIO pin > 330 Ohm resistor > LED1 DIN > LED 1 DOUT > LED 2 DIN > LED 2 DOU
 Power Line for the LED is Pico VBUS > LED VDD for all LEDs
 Ground line is GND > LED VSS for all LEDs
 
-https://github.com/sparshgupta12345678901-cmd/Custom-9-Key-RGB-Macropad/blob/main/All%20Components/Screenshot%202026-06-13%20223807.png
+![All Components](All%20Components/Screenshot%202026-06-10%20232135.png)
+This is what The LED wiring should look like, it looks complicated but is really simple since you basically repeating the same wiring for almost all of the LEDs.
 
 **OLED Display Wiring**
 
@@ -100,6 +100,9 @@ OLED GND > Pico GND
 OLED SCL > Pico I2C SCL Pin
 OLED SDA > Pico I2C SDA Pin
 
+![All Components](All%20Components/Screenshot%202026-06-13%20224008.png)
+This is what your OLED screen Wiring should look like in terms of wire connection. You can also see the slider "connect" to the oled screen and I will explain that too.
+
 **Potentiometer Wiring**
 
 The Slide potentiometer is connected as a analog input:
@@ -108,6 +111,30 @@ Side with single pin > 3V3 on Pico
 Square hole pin > GND on Pico 
 Last Pin > Pico ADC Pin
 
+![All Components](All%20Components/Screenshot%202026-06-10%20232135.png)
+This is what your potentiometer wiring should look like. Also the wire that connects to the OLED screen is the 3V3 wire to supply it with power so that the only reason its connected there.
+
+**Rotary Encoder Wiring**
+The Rotary has 5 pins total 3 of them are for the actual turning mechanism, & the other 2 are for the button module.
+
+C > GND
+A > PICO GPIO
+B > PICO GPIO
+
+S1 > PICO GPIO
+S2 > GND
+
+On my setup the wiring looked like this:
+
+C > GND
+A > GP18
+B > GP19
+
+S1 > GP20
+S2 > GND
+
+![All Components](All%20Components/Screenshot%202026-06-13%20223956.png)
+Here is a example, a picture of my wiring.
 
 **How to use**
 
