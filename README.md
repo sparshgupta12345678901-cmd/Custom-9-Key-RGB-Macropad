@@ -57,7 +57,10 @@ The RGB LEDs are powered from the VBUS/5V from the Pico, while the OLED & potent
 Picture of my PCB
 
 **CASE Design**
-The case was designed in Onshape and has 2 parts TOP case which is the top piece and BOTTOM case which is the bottom piece and they both join together using pegs. My case design is themed like Jojo's Bizzare Adventure and has a decal of the logo on the bottom piece, & multiple different types of decals of the top case design. the top plate also has cutouts for all of the components, & the bottom case has a mount for my PCB.
+
+The case was designed in Onshape and has 2 parts TOP case which is the top piece and BOTTOM case which is the bottom piece and they both join together using pegs. My case design is themed like Jojo's Bizzare Adventure and has a decal of the logo on the
+
+bottom piece, & multiple different types of decals of the top case design. the top plate also has cutouts for all of the components, & the bottom case has a mount for my PCB.
 
 ![Case Picture](CASE%20PICTURES/Screenshot%202026-06-09%20220622.png)
 
