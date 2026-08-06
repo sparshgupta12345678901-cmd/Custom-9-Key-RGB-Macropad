@@ -137,6 +137,9 @@ S2 > GND
 ![All Components](All%20Components/Screenshot%202026-06-13%20223956.png)
 Here is a example, a picture of my wiring.
 
+**PROGRAMING**
+I will add info to this section once I finish building the macropad and start to code it.
+
 **How to use**
 
 Once assembled & programed, the macropad can be used as a custom keyboard accessory. Each key can be assigned to shortcuts, macros, or commands. The rotary encoder can be used for volume, scrolling, or schanging settings. The Slide Potentiometer can be programed as a analog control, for things such as brightness, volume, or other custom input.
@@ -144,8 +147,8 @@ Once assembled & programed, the macropad can be used as a custom keyboard access
 The RGB LEDs can be programmed for static colors, animations, or per-key effects. The OLED can display information such as mode, volume, or custom text.
 
 **Future improvements**
-1. Adding custom oled animations
-2. Adding more RGB like a underglow
+1. Adding custom OLED animations
+2. Adding more RGB like a under glow
 3. Improving case design
 4. Making the PCB smaller with more compact wiring
 5. Adding hot-swap switch sockets.
