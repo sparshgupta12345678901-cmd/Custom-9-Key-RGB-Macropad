@@ -54,6 +54,7 @@ The PCB was designed in KiCad. It includes a switch matrix, diode wiring, RGB LE
 The RGB LEDs are powered from the VBUS/5V from the Pico, while the OLED & potentiometer use 3.3V. The LED data line goes through a 330 ohm resistor before reaching the first LED.
 
 ![PCB Design](PCB/Screenshot%202026-05-30%20043135.png)
+
 Picture of my PCB
 
 **CASE Design**
@@ -63,6 +64,8 @@ The case was designed in Onshape and has 2 parts TOP case which is the top piece
 bottom piece, & multiple different types of decals of the top case design. the top plate also has cutouts for all of the components, & the bottom case has a mount for my PCB.
 
 ![Case Picture](CASE%20PICTURES/Screenshot%202026-06-09%20220622.png)
+
+Case picture
 
 **Wiring**
 The 9 key 3x3 Matrix Visual
@@ -78,9 +81,11 @@ Each switch is conected to a diode, and each diode conects to a row line.
 Basically put all 9 switches in a 3x3 matrix then wire the switches in a colum & in a row then put a diode next to each switch and run the row line through one of the connections while the other side is connected to the switch then connect each of the 3 rows & colums to a GPIO pin on the Raspberry Pi Pico W.
 
 ![Keycap Wiring](KEYCAP%20WIRING/Screenshot%202026-05-29%20035807.png)
+
 This is what your wiring should look like for the keycaps & Diodes.
 
 ![Keycap Wiring](KEYCAP%20WIRING/Screenshot%202026-06-10%20001620.png)
+
 This is a closeup of what each switch should look wired to the Diode.
 
 **RGB LED Chain Wiring**
@@ -93,6 +98,7 @@ Power Line for the LED is Pico VBUS > LED VDD for all LEDs
 Ground line is GND > LED VSS for all LEDs
 
 ![All Components](All%20Components/Screenshot%202026-06-10%20232135.png)
+
 This is what The LED wiring should look like, it looks complicated but is really simple since you basically repeating the same wiring for almost all of the LEDs.
 
 **OLED Display Wiring**
@@ -105,6 +111,7 @@ OLED SCL > Pico I2C SCL Pin
 OLED SDA > Pico I2C SDA Pin
 
 ![All Components](All%20Components/Screenshot%202026-06-13%20224008.png)
+
 This is what your OLED screen Wiring should look like in terms of wire connection. You can also see the slider "connect" to the oled screen and I will explain that too.
 
 **Potentiometer Wiring**
@@ -116,6 +123,7 @@ Square hole pin > GND on Pico
 Last Pin > Pico ADC Pin
 
 ![All Components](All%20Components/Screenshot%202026-06-10%20232135.png)
+
 This is what your potentiometer wiring should look like. Also the wire that connects to the OLED screen is the 3V3 wire to supply it with power so that the only reason its connected there.
 
 **Rotary Encoder Wiring**
@@ -138,6 +146,7 @@ S1 > GP20
 S2 > GND
 
 ![All Components](All%20Components/Screenshot%202026-06-13%20223956.png)
+
 Here is a example, a picture of my wiring.
 
 **PROGRAMING**
