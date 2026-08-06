@@ -54,11 +54,12 @@ The PCB was designed in KiCad. It includes a switch matrix, diode wiring, RGB LE
 The RGB LEDs are powered from the VBUS/5V from the Pico, while the OLED & potentiometer use 3.3V. The LED data line goes through a 330 ohm resistor before reaching the first LED.
 
 ![PCB Design](PCB/Screenshot%202026-05-30%20043135.png)
+Picture of my PCB
 
 **CASE Design**
 The case was designed in Onshape and has 2 parts TOP case which is the top piece and BOTTOM case which is the bottom piece and they both join together using pegs. My case design is themed like Jojo's Bizzare Adventure and has a decal of the logo on the bottom piece, & multiple different types of decals of the top case design. the top plate also has cutouts for all of the components, & the bottom case has a mount for my PCB.
 
-(FULL MACROPAD PICTURE & ONLY CASE PICTURE)
+![Case Picture](CASE%20PICTURES/Screenshot%202026-06-09%20220622.png)
 
 **Wiring**
 The 9 key 3x3 Matrix Visual
