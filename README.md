@@ -178,7 +178,7 @@ BOM (Bill Of Materials)
 | GATERON G PRO V3 3.0 Switch | 9 | $10.30 | [AliExpress](https://www.aliexpress.us/item/3256810373229330.html) |
 | SK6812 MINI-E LEDs | 9 | $3.29 | [AliExpress](https://www.aliexpress.us/item/3256808405274987.html) |
 | 330 ohm Resistor | 1 | $1.45 | [AliExpress](https://www.aliexpress.us/item/2251832681907061.html) |
-
+| 3D Printed Case & Keycaps | 9 | $15 | Friend |
 
 
 
